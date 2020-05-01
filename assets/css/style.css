@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("https://ywoonder.s3-ap-southeast-1.amazonaws.com/gitpages/header-beach.jpg");
+  background: url("https://ywoonder.s3-ap-southeast-1.amazonaws.com/gitpages/header-beach80.jpg");
   /* background: url("../img/yunita-beach5.jpg"); */
   /* background: url("../img/hero-bg.jpg") top center; */
   background-size: cover;
@@ -476,7 +476,7 @@ section {
 
 .about .image {
   /* background: url("../img/me.jpg") center center no-repeat; */
-  background: url("https://ywoonder.s3-ap-southeast-1.amazonaws.com/gitpages/me-profile.jpg") center center no-repeat;  
+  background: url("https://ywoonder.s3-ap-southeast-1.amazonaws.com/gitpages/me-profile70.jpg") center center no-repeat;  
   background-size: cover;
   box-shadow: 0 0 2px 2px white inset;
   min-height: 400px;
