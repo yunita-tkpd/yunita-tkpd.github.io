@@ -309,9 +309,28 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 .transparent-style{
+  width: 350px;
+  height: 100px;
+  position: static;
+  /* top: 50%;
+  left: 50%; */
+  text-align: center;
 
-  background-color:rgba(255,255,255,.7);
-  opacity: .4;
+  /* margin: 0 auto;
+  top: 50%;
+  left: 50%; */
+  /* margin-left: -150px; */
+  /* margin-top: -100px; */
+  
+  /*greenish blue*/
+  /* background-color:rgba(225,245,254,0.9); */
+  /*blue*/
+  background-color:rgba(224,247,250,0.95);
+  /*pink*/
+  background-color:rgba(255,235,238, 0.95);
+
+  /* background-color:rgba(255, 255, 255, 0.95); */
+  /* background-color:rgba(255,255,255,.7); */
 }
 #hero {
   width: 100%;
@@ -329,6 +348,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color:#345676;
+  /* color:#e57373; */
+  /* color:#ec407a; */
   /* background-color:rgba(255,255,255,.9);  */
   /* color: #03396c				;	 */
   /* color: #fff; */
@@ -348,6 +369,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   transition: 0.5s;
   color: #fff;
+  /* color:#ef9a9a; */
+  /* color:#345676; */
+  /* color: rgb(255,235,238); */
   height: 60px;
 }
 
@@ -478,7 +502,7 @@ section {
   /* background: url("../img/me.jpg") center center no-repeat; */
   background: url("https://ywoonder.s3-ap-southeast-1.amazonaws.com/gitpages/me-profile70.jpg") center center no-repeat;  
   background-size: cover;
-  box-shadow: 0 0 2px 2px white inset;
+  box-shadow: 0 0 3px 3px white inset;
   min-height: 400px;
 }
 
