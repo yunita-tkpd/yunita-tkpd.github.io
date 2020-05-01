@@ -325,9 +325,9 @@ h1, h2, h3, h4, h5, h6 {
   /*greenish blue*/
   /* background-color:rgba(225,245,254,0.9); */
   /*blue*/
-  background-color:rgba(224,247,250,0.95);
+  /* background-color:rgba(224,247,250,0.95); */
   /*pink*/
-  background-color:rgba(255,235,238, 0.95);
+  background-color:rgba(255,235,238, 1);
 
   /* background-color:rgba(255, 255, 255, 0.95); */
   /* background-color:rgba(255,255,255,.7); */
