@@ -309,9 +309,11 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 .transparent-style{
-  width: 350px;
-  height: 100px;
-  position: static;
+  /* width: 375px;
+  height: 100px; */
+  /* width:100%; */
+  /* height: 100px; */
+  /* position: static; */
   /* top: 50%;
   left: 50%; */
   text-align: center;
@@ -332,16 +334,35 @@ h1, h2, h3, h4, h5, h6 {
   /* background-color:rgba(255, 255, 255, 0.95); */
   /* background-color:rgba(255,255,255,.7); */
 }
+@media only screen and (max-width: 600px) {
+  /* styles for narrow screens */
+  #hero {
+    width: 100%;
+    height: 75vh;
+    
+    /* background: url("https://ywoonder.s3-ap-southeast-1.amazonaws.com/gitpages/header-beach-sm.jpg"); */
+    background: url("https://ywoonder.s3-ap-southeast-1.amazonaws.com/gitpages/header-beach-sm.jpg");
+    /* background: url("../img/yunita-beach5.jpg"); */
+    /* background: url("../img/hero-bg.jpg") top center; */
+    background-size: cover;
+    padding: 0 15px;
+  }
+  
+}
+@media only screen and (min-width: 600px) {
+
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("https://ywoonder.s3-ap-southeast-1.amazonaws.com/gitpages/header-beach80.jpg");
-  /* background: url("../img/yunita-beach5.jpg"); */
+  background: url("https://ywoonder.s3-ap-southeast-1.amazonaws.com/gitpages/header-beach-left-90.jpg");
+  /* background: url("https://ywoonder.s3-ap-southeast-1.amazonaws.com/gitpages/header-beach80.jpg"); */
+  
+  /* background: url("../img/yunita-beach5-leftmost2-90.jpg"); */
   /* background: url("../img/hero-bg.jpg") top center; */
   background-size: cover;
   padding: 0 15px;
 }
-
+}
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
@@ -500,7 +521,7 @@ section {
 
 .about .image {
   /* background: url("../img/me.jpg") center center no-repeat; */
-  background: url("https://ywoonder.s3-ap-southeast-1.amazonaws.com/gitpages/me-profile70.jpg") center center no-repeat;  
+  background: url("https://ywoonder.s3-ap-southeast-1.amazonaws.com/gitpages/me-profile-70.jpg") center center no-repeat;  
   background-size: cover;
   box-shadow: 0 0 3px 3px white inset;
   min-height: 400px;
